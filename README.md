@@ -2,8 +2,9 @@
 
 A **custom** [Kvantum](https://github.com/tsujan/Kvantum) (Qt 5 / Qt 6) widget
 theme built to go with the GTK theme **Gruvbox-Material-Dark**
-([Materia](https://github.com/nana-4/materia-theme)-based, from
-[sainnhe/gruvbox-material](https://github.com/sainnhe/gruvbox-material)).
+([Materia](https://github.com/nana-4/materia-theme)-based port of
+[sainnhe/gruvbox-material](https://github.com/sainnhe/gruvbox-material), from
+[Kihau/GruvboxMaterialGtk](https://github.com/Kihau/GruvboxMaterialGtk)).
 
 This is not just a palette swap: buttons, menus, entries, tabs, scrollbars and
 indicators are re-shaped to follow the GTK theme's design.
@@ -55,16 +56,12 @@ For the GTK font and icon theme as well:
 QT_QPA_PLATFORMTHEME=gtk3
 ```
 
-## Branches
-
-- `main` — the earlier plain palette retune of *Gruvbox-Dark-Brown*.
-- `custom` — this re-shaped build.
-
 ## Credits
 
 - Based on *Gruvbox-Dark-Brown* by sachnr, itself based on **KvAdapta** by
   Pedram Pourang (Tsu Jan).
-- Colors and design metrics from **Gruvbox-Material-Dark** (MIT).
+- Colors and design metrics from **Gruvbox-Material-Dark**
+  ([Kihau/GruvboxMaterialGtk](https://github.com/Kihau/GruvboxMaterialGtk), MIT).
 - Checkbox/radio icon paths from that theme's symbolic icons.
 - Gruvbox color scheme by Pavel Pertsev.
 
